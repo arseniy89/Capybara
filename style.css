@@ -1,0 +1,123 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: url('capybara.jpg') 0 0 no-repeat, #212121;
+    background-size: 100%;
+    min-width: 320px;
+    cursor: pointer;
+}
+
+.heading {
+    color: #0B0C10;
+    text-align: center;
+    font-size: calc(20px + (100 - 20) * ((100vw - 320px) / (1200 - 320)));
+    text-transform: uppercase;
+    background-image: linear-gradient(
+    -225deg,
+    #F7F9F8 0%,
+    #c8e6c9 29%,
+    #4caf50 67%,
+    #212121 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.space {
+    text-decoration: none;
+    list-style-type: none;
+    font-weight: bold;
+    color: #c8e6c9;
+    text-align: left;
+    text-transform: uppercase;
+    background-image: linear-gradient(
+    -225deg,
+    #F7F9F8 0%,
+    #c8e6c9 29%,
+    #4caf50 67%,
+    #212121 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    font-size: calc(9px + (32 - 9) * ((100vw - 320px) / (1200 - 320)));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+}
+
+h2 {
+    color: #FFFFFF;
+    padding-left: calc(15px + (30 - 15) * ((100vw - 320px) / (1200 - 320)));
+    font-size: calc(15px + (30 - 15) * ((100vw - 320px) / (1200 - 320)));
+}
+
+hr {
+    border: 1px solid #388e3c;
+}
+
+p {
+    color: #c8e6c9;
+    text-align: justify;
+    font-size: calc(15px + (20 - 15) * ((100vw - 320px) / (1200 - 320)));
+    padding-left: calc(15px + (30 - 15) * ((100vw - 320px) / (1200 - 320)));
+    padding-right: calc(15px + (30 - 15) * ((100vw - 320px) / (1200 - 320)));;
+}
+
+.wrap1 {
+    border: 1px solid #388e3c;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.wrap2 {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    margin-left: calc(20px + (160 - 20) * ((100vw - 320px) / (1200 - 320)));
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-radius: 30px;
+    background: #212121;
+    border: 1px solid #388e3c;
+    vertical-align: middle;
+}
+
+.lnk {
+    font-size: calc(15px + (20 - 15) * ((100vw - 320px) / (1200 - 320)));
+    padding-left: calc(20px + (160 - 20) * ((100vw - 320px) / (1200 - 320)));
+    padding-right: calc(20px + (160 - 20) * ((100vw - 320px) / (1200 - 320)));
+    color: #388e3c;
+    text-decoration: none;
+    font-weight: bold;
+    vertical-align: middle;
+    text-align: center;
+}
+
+button {
+    font-size: calc(15px + (20 - 15) * ((100vw - 320px) / (1200 - 320)));
+    border-radius: 30px;
+    padding: 16px 20px 16px 20px;
+    color: #388e3c;
+    background-color: #212121;
+    border: 1px solid #388e3c;
+    text-decoration: none;
+    font-weight: bold;
+    vertical-align: middle;
+    text-align: center;
+}
