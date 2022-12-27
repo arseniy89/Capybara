@@ -235,7 +235,7 @@ button {
     }
 }
 
-.place_for_search {
+.search_field {
     background: #212121;
     border-radius: 30px;
     box-shadow: none;
@@ -244,7 +244,7 @@ button {
     color: #FFFFFF;
 }
 
-.button_for_search {
+.search_button {
     background: #212121;
     border-radius: 30px;
     border: 1px solid #388e3c;
