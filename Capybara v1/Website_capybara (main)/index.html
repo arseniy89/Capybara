@@ -1,31 +1,16 @@
 <!DOCTYPE html>
 <html>
+
     <head>
         <meta charset='utf-8'>
         <meta name='viewport' content='width=device-width'>
         <title>Capybara</title>
         <link href='styles/style.css' rel='stylesheet' type='text/css' />
     </head>
-
+    
     <body>
-        <div id="navigate">
-            <div class="toggle-btn" onclick="openMenu()">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <div class="btn-up btn-up_hide"></div>
-            
-            <ul>
-                <li>MENU</li>
-                <li><a href='../Dino/index.html'>Dino</a></li>
-                <li><a href='../Website_404/index.html'>Error</a></li>
-            </ul>
-        </div>
-        
         <h1 class='heading'>Капибара</h1>
-        <ul class='list'>
+        <ul class='space'>
             <a href='#Этимология'>
                 <li>Этимология</li>
             </a>
@@ -148,22 +133,17 @@
         <p>Капибары спокойны, дружелюбны, охотно идут на контакт с человеком, любят ласку. К тому же они чистоплотны и
             хорошо уживаются с другими животными, в том числе домашними. Вследствие этого в Южной Америке довольно
             распространено их содержание в качестве домашних любимцев.</p>
-        
+    
         <div calss='wrap1'>
             <div class='wrap2'>
+                <a href='../Website_404/index.html' class='lnk'>Page</a>
                 <a href='https://ru.wikipedia.org/wiki/Капибара' class='lnk'>Original</a>
-                <a href='https://www.youtube.com/watch?v=Uv11bEfVemE' class='lnk'>Video</a>
             </div>
-            <button onclick="window.location.href = 'https://gifts.worldwildlife.org/gift-center/gifts/Species-Adoptions/Capybara.aspx';">Help</button>
+            <button
+                onclick="window.location.href = 'https://gifts.worldwildlife.org/gift-center/gifts/Species-Adoptions/Capybara.aspx';">Like</button>
         </div>
-
-        <div class='wrap3'>
-            <form>
-                <input class="search_field" id="find" type="text" value="" placeholder="Поиск" autofocus> 
-                <input class="search_button" type="submit" onclick="javascript: FindOnPage('find', true); return false;" value=" ">
-            </form>
-        </div>
-
+    
         <script src='script.js'></script>
     </body>
+
 </html>
